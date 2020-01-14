@@ -2,37 +2,63 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+body {
+  background: #F2F2F2;
+  font-family: sans-serif;
+  color: #262626;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.humble-container {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.follower-container {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  background: #F2F2F2;
+  width: 250px;
+  text-align: center;
+  margin: 20px;
+  border-radius: 25px;
+  border-top-left-radius: 125px;
+  border-top-right-radius: 125px;
+  box-shadow: -5px -5px 5px rgba(255, 255, 255, 1),
+  5px 5px 5px rgba(0, 0, 0, 0.1)
+}
+
+.prof-pic {
+  padding-top: 10px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+p {
+  margin: 20px auto;
+  padding: 10px;
+  width: 70%;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.1),
+  inset -5px -5px 5px rgba(255, 255, 255, 1);
+  border-radius: 5px;
 }
